@@ -1,45 +1,45 @@
 *{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #E0DDAA;
+    background-color: #00bbf0;
 }
 
-.toolboxcont{
-    display: flex;
-    height: 6rem;
+.toolbox-cont{
+    height: 5rem;
     background-color: #141E27;
-    align-items:center;
-    width: 100vw;
-    position:fixed;
-    top: 0%;
-
-}
-.tool-priority-container{
-    height: 3rem;
-    width: 18rem;
-    background-color: #EEEDDE;
-    background-color:beige;
-    margin-left: 3rem;
     display: flex;
-    align-items:center;
-    justify-content: space-around;
-    border-radius: 2px;
+    align-items: center;
+    position:fixed;
+    width: 100vw;
+    top:0px
 }
-.action-container{
-    background-color: #EEEDDE;
-     height:3rem;
-    width: 15rem;
-    margin-left: 3rem;
+
+.toolbox-priority-cont{
+    height: 3rem;
+    background-color: #fdb44b;
+    width: 18rem;
+    margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 2px;
 }
+
+.action-btn-cont{
+    background-color: #EEEDDE;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+
 .color{
     height: 1.5rem;
     width: 3rem;
@@ -72,7 +72,7 @@ body{
     position: absolute;
     left: 25vw;
     top:25vh;
-    background-color: #EEEDDE;
+    background-color: #00204a;
     height: 50vh;
     width: 50vw;
     display: none;
@@ -82,12 +82,12 @@ body{
     outline:none;
     resize: none;
     border: none;
-    background-color:#EEEDDE;
+    background-color:#ffebbb;
     height: 100%;
     width: 75%;
     font-size: 2rem;
     padding: 2rem;
-    border: 1px solid #141E27;
+    border-right: 2px solid #141E27;
 }
 
 .priority-color-cont{
@@ -97,7 +97,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid #141E27;
 }
 
 .priority-color{
@@ -110,7 +109,7 @@ body{
 }
 
 .main-cont{
-    margin-top: 8rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -139,9 +138,6 @@ body{
 }
 
 .task-area{
-    height: calc(100%-1rem-1.5rem);
-    padding: 5px;
-    font-size: 1.25rem;
     height: 5rem;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
@@ -151,8 +147,7 @@ body{
     word-break: break-all;
 }
 
-
 .lock-unlock{
     font-size: 1.5rem;
-        margin-left: 14.5rem;
+    margin-left: 14.5rem;
 }
